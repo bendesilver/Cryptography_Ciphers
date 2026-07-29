@@ -53,6 +53,9 @@ cryptography-ciphers-project/
 ## Getting Started
 
 1. Clone or download this repository.
+   ```
+   https://github.com/bendesilver/Cryptography_Ciphers.git
+   ```
 2. Navigate into whichever cipher folder you'd like to try, e.g.:
    ```
    cd caesar_cipher
