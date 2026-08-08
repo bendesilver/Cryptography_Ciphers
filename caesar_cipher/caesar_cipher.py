@@ -1,15 +1,13 @@
-"""
-Caesar Cipher
--------------
-A simple substitution cipher that shifts each letter in the plaintext
-by a fixed number of positions ('key') down the alphabet.
+# Caesar Cipher
+# A simple substitution cipher that shifts each letter in the plaintext
+# by a fixed number of positions ('key') down the alphabet.
 
-Example (key = 3):
-    A -> D, B -> E, C -> F ... Z -> C
+# Example (key = 3):
+#   A -> D, B -> E, C -> F ... Z -> C
 
-Only alphabetic characters (A-Z, a-z) are shifted. All other
-characters (numbers, spaces, punctuation) are left unchanged.
-"""
+# Only alphabetic characters (A-Z, a-z) are shifted. All other
+# characters (numbers, spaces, punctuation) are left unchanged.
+#
 
 ALPHABET_SIZE = 26
 
