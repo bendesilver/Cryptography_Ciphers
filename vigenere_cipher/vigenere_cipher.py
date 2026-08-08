@@ -1,19 +1,18 @@
-"""
-Vigenere Cipher
----------------
-A polyalphabetic substitution cipher that uses a keyword to shift
-letters by varying amounts. Each letter of the keyword determines
-the shift for the corresponding letter of the plaintext (A=0, B=1, ...).
+# Vigenere Cipher
+# ---------------
+# A polyalphabetic substitution cipher that uses a keyword to shift
+# letters by varying amounts. Each letter of the keyword determines
+# the shift for the corresponding letter of the plaintext (A=0, B=1, ...).
+#
+# Example:
+#   Plaintext:  H  E  L  L  O
+#   Key:        K  E  Y  K  E
+#   Shift:      10 4  24 10 4
+#
+# Only alphabetic characters (A-Z, a-z) are shifted; the key cycles
+# over only the alphabetic characters in the text, so spaces and
+# punctuation are preserved without consuming a key letter.
 
-Example:
-    Plaintext:  H  E  L  L  O
-    Key:        K  E  Y  K  E
-    Shift:      10 4  24 10 4
-
-Only alphabetic characters (A-Z, a-z) are shifted; the key cycles
-over only the alphabetic characters in the text, so spaces and
-punctuation are preserved without consuming a key letter.
-"""
 
 ALPHABET_SIZE = 26
 
