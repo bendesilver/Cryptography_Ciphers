@@ -1,23 +1,21 @@
-"""
-Affine Cipher
--------------
-A monoalphabetic substitution cipher based on the mathematical
-function:
+# Affine Cipher
+# A monoalphabetic substitution cipher based on the mathematical
+# function:
 
-    E(x) = (a * x + b) mod m
+#   E(x) = (a * x + b) mod m
 
-where:
-    x = the numerical value of the plaintext letter (A=0, B=1, ..., Z=25)
-    a, b = the key (a must be coprime with m, i.e. gcd(a, m) = 1)
-    m = size of the alphabet (26)
+# where:
+#   x = the numerical value of the plaintext letter (A=0, B=1, ..., Z=25)
+#   a, b = the key (a must be coprime with m, i.e. gcd(a, m) = 1)
+#   m = size of the alphabet (26)
 
-Decryption uses the modular inverse of 'a':
+# Decryption uses the modular inverse of 'a':
 
-    D(y) = a_inverse * (y - b) mod m
+#   D(y) = a_inverse * (y - b) mod m
 
-Only alphabetic characters (A-Z, a-z) are transformed. All other
-characters are left unchanged.
-"""
+# Only alphabetic characters (A-Z, a-z) are transformed. All other
+# characters are left unchanged.
+
 
 ALPHABET_SIZE = 26
 
