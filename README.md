@@ -1,7 +1,7 @@
 # Classical Cryptography Ciphers
 
 A collection of classical (pre-modern) cipher implementations written
-in Python, built as part of my **Cryptography course in Semester 6**.
+in Python, built as part of my **Introduction to Cryptography** course in Semester 6.
 
 ## About This Project
 
@@ -11,7 +11,7 @@ three classic ciphers instead of just studying them on paper. Working
 through the math and edge cases (like figuring out modular inverses
 for the Affine cipher, or handling key alignment for the Vigenere
 cipher) helped me understand these algorithms far better than reading
-about them alone. This repository is the result — a small,
+about them alone. This repository is the result. A small,
 self-contained collection I can refer back to and share.
 
 ## Ciphers Included
@@ -31,7 +31,7 @@ Each cipher lives in its own folder with:
 ## Project Structure
 
 ```
-cryptography-ciphers-project/
+Cryptography-Ciphers/
 ├── README.md                      <- you are here
 ├── caesar_cipher/
 │   ├── caesar_cipher.py
@@ -59,6 +59,9 @@ cryptography-ciphers-project/
 2. Navigate into whichever cipher folder you'd like to try, e.g.:
    ```
    cd caesar_cipher
+   ```
+   
+   ```
    python3 caesar_cipher.py
    ```
 3. Refer to that folder's `README.md` for detailed usage instructions
@@ -75,6 +78,6 @@ through well-vetted libraries.
 ## Author's Note
 
 This project reflects my own learning process for my Semester 6
-cryptography course — I built it to strengthen my grasp of classical
+**Introduction to Cryptography** course. I built it to strengthen my grasp of classical
 cipher mathematics before moving on to modern cryptographic systems.
 Feedback and suggestions are always welcome!
